@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 
 import java.time.ZonedDateTime;
 
+//Se crean las excepciones necesarias
 public class ApiException {
     private final String message;
     private final Throwable throwable;

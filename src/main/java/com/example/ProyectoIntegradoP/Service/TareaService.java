@@ -25,25 +25,6 @@ public class TareaService {
         this.tareaRepository = tareaRepository;
     }
 
-    /*
-    this.idTarea = idTarea;
-        this.nombre = nombre;
-        this.descipcion = descipcion;
-        this.tareaStatus = tareaStatus;
-        this.tipo = tipo;
-        this.startDate = startDate;
-        this.dueDate = dueDate;
-        this.createdDate = createdDate;
-        this.lastUpdatedDate = lastUpdatedDate;
-        this.proyecto = proyecto;
-
-
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.tipo = tipo; ---
-        this.startDate = startDate;
-        this.dueDate = dueDate;
-     */
 
     //Se crea una tarea por medio del DTO y su proyecto padre
     public Tarea crearTarea(Long idProyecto, TareaDto tareaDto) {
@@ -109,7 +90,5 @@ public class TareaService {
             throw new ApiRequestException("La tarea no existe");
         }
     }
-
-
 
 }

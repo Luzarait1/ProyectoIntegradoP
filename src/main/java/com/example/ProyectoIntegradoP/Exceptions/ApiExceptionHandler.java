@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
+//Se crean las excepciones necesarias
 @ControllerAdvice
 public class ApiExceptionHandler {
     @ExceptionHandler(value = {ApiRequestException.class})

@@ -3,7 +3,6 @@
 ### Bootcamp Backend - Makaia
 ### Abril 30, 2024
 
-
 ## Descripción del Proyecto
 El proyecto integrador tiene como fin demostrar las habilidades que se aprendieron en el Bootcamp de Backend de Makaia. Aquí, se implementará las tecnologías aprendidas y trabajadas a lo largo de las clases.
 
@@ -20,10 +19,6 @@ Debido a que la implementación manual de un Kanban Board puede ser tediosa, la 
 
 ## Ejemplo: Flujo del Proyecto
 ![Flujo del Proyecto](/FlujoProyecto.PNG)
-
-# Rest API: Sistema Kanban
-### Bootcamp Backend - Makaia
-### Abril 30, 2024
 
 ### Las principales tecnologías que se utilizaron son:
 - Java y Springboot: En el backend y el framework
